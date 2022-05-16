@@ -30,7 +30,7 @@ def mengetik(s):
         sys.stdout.flush()
 #kecepatan mengetik
         time.sleep(random.random() * 0.2)
-{N};mengetik('                         SELAMAT DATANG TOLS CONVERT');os.system('clear')
+{N};mengetik('                         SELAMAT DATANG TOOLS CONVER');os.system('clear')
 #lahha
 class convert:
 
@@ -39,9 +39,10 @@ class convert:
             {H}           https://github.com/pajar-07
 ㅤㅤㅤㅤㅤ==================================================
 {HIJAU}ㅤㅤㅤㅤㅤ[•]{K}1.{J} Mendapatkan token EAAIㅤㅤㅤㅤㅤㅤㅤ
-{HIJAU}ㅤㅤㅤㅤㅤ[•]{K}2.{K} Dapatkan token EAABㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-{HIJAU}ㅤㅤㅤㅤㅤ[•]{K}3.{U} Cara menggunakanㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-{HIJAU}ㅤㅤㅤㅤㅤ[•]{K}4.{J} Keluar {MERAH}(exit){MERAH}{BIRU}
+{HIJAU}ㅤㅤㅤㅤㅤ[•]{K}2.{K} Dapatkan token EAABㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+{HIJAU}ㅤㅤㅤㅤㅤ[•]{K}3.{O} Dapatkan token EAAAㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+{HIJAU}ㅤㅤㅤㅤㅤ[•]{K}4.{U} Cara menggunakanㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+{HIJAU}ㅤㅤㅤㅤㅤ[•]{K}5.{J} Keluar {MERAH}(exit){MERAH}{BIRU}
 ㅤㅤㅤㅤㅤ==================================================
        """)
     masuk = input(f"{KUNING}{U}    [?]{J}PILIH:{HIJAU} ")
@@ -59,6 +60,10 @@ class convert:
       else:
         masuk = input(f'''{HIJAU}        JANGAN KOSONG GOBLOK!!!
               {HIJAU}TEKAN {MERAH}ENTER!!''');os.system('python Convert.py');print()
+    elif masuk == '3' or masuk == '03':
+      cookie = input(f"\n{HIJAU}{U}     [!]{O}masukan Cookie :{KUNING} ")
+      if 'c_user=' in str(cookie):
+        self.__tiga__(cookie)
       else:
         masuk = input(f'''{HIJAU}        JANGAN KOSONG GOBLOK!!!
               {HIJAU}TEKAN {MERAH}ENTER!!''');os.system('python Convert.py');print()
